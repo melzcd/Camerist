@@ -58,7 +58,7 @@ def pop(filelist):
     for x in filelist:
         namesFile.append(x.rstrip('.jpg') and x.rstrip('.jpeg'))
     for y in namesFile:
-        newFiles.append(y+'.NEF') # Зависит от формата "фотика"
+        newFiles.append(y+'.NEF') # Зависит от формата фотоаппарата. Этот формат "Nikon"
     return newFiles
 
 def main():
